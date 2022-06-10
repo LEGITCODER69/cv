@@ -1,0 +1,164 @@
+.design {
+    font-family: 'Roboto Mono', monospace;
+    background-color: #E4F9F5;
+    padding: 40px;
+    text-align: center;
+    font-size: 20px;
+}
+
+h1 {
+    font-family: 'Sacramento', cursive;
+}
+
+body {
+    background-color: #E4F9F5;
+}
+
+.bottom-cloud {
+    position: absolute;
+    left: 200px;
+    top: 200px;
+}
+
+.upper-cloud {
+    position: absolute;
+    right: 200px;
+    top: 300px;
+}
+
+.mid-container {
+    font-size: 200px;
+    font-family: sans-serif;
+    width: 50%;
+    margin: auto
+}
+
+.bottom-container {
+    text-align: center;
+    background-color: #66BFBF;
+    padding: 50px 0 20px;
+}
+
+a {
+    color: #11999E;
+    font-family: sans-serif;
+    margin: 10px 20px;
+    text-decoration: none;
+}
+
+a:hover {
+    color: white;
+}
+
+.skill-row {
+    text-align: left;
+    font-family: 'Anton', sans-serif;
+    line-height: 2;
+    margin: 100px auto 100px auto;
+    width: 70%;
+}
+
+.profile {
+    text-align: center;
+    width: auto;
+    font-size: 20px;
+    font-family: sans-serif;
+    line-height: 2;
+}
+
+.contact-me {
+    text-align: center;
+    font-family: 'Anton', sans-serif;
+    line-height: 2;
+    margin: 100px auto 100px auto;
+}
+
+.personelimage {
+    height: 300px;
+    background-size: contain;
+    background-position: center;
+    border-radius: 500%;
+}
+
+.hello {
+    height: 100px;
+    background-size: contain;
+    background-position: center;
+    background-color: #E4F9F5;
+    border-radius: 500%;
+}
+
+.compgif {
+    height: 90px;
+    background-size: contain;
+    background-position: center;
+    border-radius: 500%;
+}
+
+.button {
+    background-image: linear-gradient(to right, #02AAB0 0%, #00CDAC 51%, #02AAB0 100%);
+    margin: 10px;
+    padding: 15px 45px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+}
+
+.button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+
+.button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+
+.button:hover span {
+    padding-right: 25px;
+}
+
+.button:hover span:after {
+    opacity: 1;
+    right: 0;
+}
+
+.skilld-row {
+    text-align: left;
+    font-family: 'Anton', sans-serif;
+    line-height: 2;
+    margin: 100px auto 100px auto;
+    width: 60%;
+}
+
+.workplace {
+    float: left;
+    margin: 50px;
+}
+
+.ball {
+    float: right;
+    margin: 50px;
+}
+
+.phone {
+    margin: 50px;
+    position: absolute;
+    left: 40px;
+}
+
+.copyright {
+    color: white;
+    font-size: 0.75rcm;
+    padding: 10px 0px;
+}
